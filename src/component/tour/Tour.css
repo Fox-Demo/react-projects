@@ -1,0 +1,51 @@
+.tour-container{
+  background-color: aliceblue;
+  background-repeat: repeat;
+  padding: 75px 0px;
+}
+
+.tour-title{
+  margin-bottom: 4rem;
+}
+
+.tour-title h1{
+  font-size: 2.5rem;
+  margin-bottom: .75rem;
+  text-align: center;
+}
+
+.underline{
+  width: 6rem;
+  height: .25rem;
+  background-color: #49a6e9;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.tour-main{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  gap: 32px;
+}
+
+.tour-info{
+  max-width: 620px;
+  
+}
+
+.tour-info figcaption{
+  background-color: white;
+  box-shadow: 0px 0px 25px gray;
+  padding: 24px 32px;
+}
+
+
+.tour-info img{
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 20rem;
+  display: block;
+  object-fit: cover;
+}
