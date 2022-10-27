@@ -1,0 +1,65 @@
+.birthday-main {
+  background-color: pink;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.birthday-title{  
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.birthday-people {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px 40px;
+  min-width: 400px;
+  height: auto;
+  box-shadow: 0px 0px 15px black;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.clean-btn {
+  border: none;
+  margin: 0 auto;
+  display: block;
+  background-color: pink;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.person{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+
+.person img{
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.person section{
+  line-height: 0.5rem;
+}
+
+.name{
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.age{
+  font-weight: 500;
+  color: gray;
+}
