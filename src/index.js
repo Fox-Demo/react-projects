@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Birthday from "./component/birthday/Birthday";
+import { Birthday } from "./component/birthday/Birthday";
+import { Tour } from "./component/tour/Tour";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/birthday" element={<Birthday />} />
+        <Route path="/tour" element={<Tour />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

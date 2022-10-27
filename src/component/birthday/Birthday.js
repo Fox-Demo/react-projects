@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Birthday.css";
 import Data from "./Data";
 
-function Birthday() {
+export const Birthday = () => {
   const [people, setPeople] = useState(Data);
   return (
     <div className="birthday-main">
@@ -30,6 +30,4 @@ function Birthday() {
       </main>
     </div>
   );
-}
-
-export default Birthday;
+};
