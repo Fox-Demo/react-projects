@@ -1,14 +1,15 @@
 .tour-container{
   background-color: aliceblue;
   background-repeat: repeat;
-  padding: 75px 0px;
+  padding: 75px 0;
+  min-height: 100%;
 }
 
-.tour-title{
+.tour-header{
   margin-bottom: 4rem;
 }
 
-.tour-title h1{
+.tour-header h1{
   font-size: 2.5rem;
   margin-bottom: .75rem;
   text-align: center;
@@ -30,22 +31,83 @@
   gap: 32px;
 }
 
+
+
+
+
+/* TOUR-INFO */
+
 .tour-info{
   max-width: 620px;
-  
 }
 
 .tour-info figcaption{
   background-color: white;
   box-shadow: 0px 0px 25px gray;
   padding: 24px 32px;
+  border-radius: 0px 0px .25rem .25rem;
 }
 
+.tour-info h4{
+  font-size: .875rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 1.25rem;
+}
 
 .tour-info img{
-  border-radius: 5px 5px 0px 0px;
+  border-radius: .25rem .25rem 0px 0px;
   width: 100%;
   height: 20rem;
   display: block;
   object-fit: cover;
 }
+
+.interested-btn{
+  display: block;
+  margin: 1rem auto 0px;
+  border: 1px solid red;
+  color: red;
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: .25rem .5rem;
+  width: 200px;
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.read-btn{
+  border: none;
+  background-color: transparent;
+  color: #49a6e9;
+  font-size: 1rem;
+}
+
+.tour-describe{
+  color: #617D98;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.tour-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.tour-title .price{
+  padding: 4px 8px;
+  font-weight: 800;
+  background-color: aliceblue;
+  color: #49a6e9;
+  border-radius: .25rem;
+  font-size: 1rem;
+}
+
+
+
