@@ -5,7 +5,7 @@ function App() {
   return (
     <main className="homepage">
       <Link to="/birthday">Go to Birthday</Link>
-      <Link to="/tour">Go to Tour</Link>
+      <Link to="/tours">Go to Tours</Link>
     </main>
   );
 }

@@ -1,15 +1,15 @@
 .tour-container{
   background-color: aliceblue;
   background-repeat: repeat;
-  padding: 75px 0;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 .tour-header{
+  padding-top: 75px;
   margin-bottom: 4rem;
 }
 
-.tour-header h1{
+#header-title{
   font-size: 2.5rem;
   margin-bottom: .75rem;
   text-align: center;
@@ -27,10 +27,22 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-
+  padding-bottom: 75px;
   gap: 32px;
 }
 
+.refresh-btn{
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: #49a6e9;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 20px;  
+  letter-spacing: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
 
 
 
@@ -49,7 +61,7 @@
 }
 
 .tour-info h4{
-  font-size: .875rem;
+  font-size: 1rem;
   text-transform: capitalize;
   font-weight: bold;
   letter-spacing: 0.1rem;
@@ -85,6 +97,8 @@
   background-color: transparent;
   color: #49a6e9;
   font-size: 1rem;
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
 .tour-describe{
