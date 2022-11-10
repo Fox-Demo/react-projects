@@ -1,0 +1,28 @@
+#Accordion{
+  height: 100vh;
+  background-color: purple;
+  display: grid;
+  place-content: center;
+}
+
+.main{
+  width: 40vw;
+  margin: 5rem auto;
+  background-color: white;
+  padding: 2.5rem 2em;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__title{
+  width: 30%;
+  
+}
+
+.main__question{
+  width: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}

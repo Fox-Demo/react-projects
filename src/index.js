@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Birthday } from "./component/birthday/Birthday";
 import { Tours } from "./component/tour/Tours";
 import Reviews from "./component/reviews/Reviews";
+import Accordion from "./component/accordion/accordion";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path="/birthday" element={<Birthday />} />
         <Route path="/tours" element={<Tours />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/accordion" element={<Accordion />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
