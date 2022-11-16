@@ -6,16 +6,12 @@ function Accordion() {
     <div id="Accordion">
       <main className="main">
         <h2 className="main__title">Questions And Answers About Login</h2>
-        <aside className="main__question">
-          <p>
-            Unicorn vinyl poutine brooklyn, next level direct trade iceland.
-            Shaman copper mug church-key coloring book, whatever poutine
-            normcore fixie cred kickstarter post-ironic street art.
-          </p>
-          <p>1</p>
-          <p>1</p>
-          <p>1</p>
-          <p>1</p>
+        <aside className="main__questions">
+          <p className="question">Do I have to allow the use of cookes?</p>
+          <p className="question">Do I have to allow the use of cookes?</p>
+          <p className="question">Do I have to allow the use of cookes?</p>
+          <p className="question">Do I have to allow the use of cookes?</p>
+          <p className="question">When do I recieve a password ordered by le</p>
         </aside>
       </main>
     </div>

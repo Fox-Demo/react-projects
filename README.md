@@ -2,6 +2,6 @@
 
 This is used to pratice react and css
 
-# All Projects
+# All Projects Sample
 
 [Projects Site](https://react-projects.netlify.app/)

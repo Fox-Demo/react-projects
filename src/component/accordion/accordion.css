@@ -1,28 +1,48 @@
 #Accordion{
   height: 100vh;
-  background-color: purple;
+  background-color: #4b145b;
   display: grid;
   place-content: center;
 }
 
 .main{
-  width: 40vw;
+  max-width: 920px;
+  width: 90vw;
   margin: 5rem auto;
   background-color: white;
-  padding: 2.5rem 2em;
+  padding: 3rem 2em;
   border-radius: var(--radius);
   display: flex;
   justify-content: space-between;
 }
 
 .main__title{
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
   width: 30%;
-  
+  font-weight: 600;
 }
 
-.main__question{
-  width: 60%;
+.main__questions{
+  padding: 0 1rem;
+  flex: 1;  
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  gap: 1rem;
+}
+
+.question{
+  color: var(--primary-1);
+  width: 100%;
+  padding: 1.2rem;
+  
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  
+  box-shadow: var(--dark-shadow);
+  border: 2px solid #eae6eb;
+  border-radius: .25rem ;
 }
