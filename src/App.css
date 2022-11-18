@@ -1,7 +1,35 @@
 
 
 .homepage{
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.homepage__title{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.homepage__list{
+  width: 40vw;
+  height: 50vh;
+
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+
+  border: 3px solid #000;
+  box-shadow: 0 0 10px 5px gray;
+}
+
+.homepage__link{
+  color: #000;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
 }
