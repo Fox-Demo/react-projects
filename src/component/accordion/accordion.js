@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import { data } from "./Data";
+import Info from "./Info";
 import "./accordion.css";
 
 function Accordion() {
+  const [info, setInfo] = useState(data);
+
   return (
     <div id="Accordion">
       <main className="main">
         <h2 className="main__title">Questions And Answers About Login</h2>
         <aside className="main__questions">
-          <p className="question">Do I have to allow the use of cookes?</p>
-          <p className="question">Do I have to allow the use of cookes?</p>
-          <p className="question">Do I have to allow the use of cookes?</p>
-          <p className="question">Do I have to allow the use of cookes?</p>
-          <p className="question">When do I recieve a password ordered by le</p>
+          {info.map((item) => {
+            return <Info {...item} />;
+          })}
         </aside>
       </main>
     </div>
