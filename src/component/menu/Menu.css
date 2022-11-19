@@ -1,0 +1,96 @@
+:root{
+  --clr-gold: #c59d5f;
+}
+
+.menu{
+  width: auto;
+  height: auto;
+  
+  padding: 4rem;
+  background-color: var(--clr-grey-10);
+}
+
+.menu__header{
+  width: 25vw;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+
+.header__title{
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--clr-grey-1);
+}
+
+.header__underline{
+  background-color: var(--clr-gold);
+  width: 5rem;
+  height: .25rem;
+  margin: 0 auto;
+}
+
+.header__nav{
+  color: var(--clr-gold);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.nav__category{
+  cursor: pointer;
+  padding: .25rem .5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.nav__category:hover{
+  background-color: var(--clr-gold);
+  border-radius: 5px;
+  color: #fff;
+  transition: .5s;
+}
+
+.menu__main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.food{
+  width: 35%;
+  display: flex;
+  gap: 1rem;
+}
+
+.food__img{
+  border: 5px solid var(--clr-gold);
+  border-radius: 5px;
+  width: 40%;
+  object-fit: cover;
+}
+
+.food__header{
+  display: flex;
+  margin-bottom: .5rem;
+}
+
+.food__header--title{
+  flex: 1;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.food__header--price{
+  color: var(--clr-gold);
+  font-weight: 800  ;
+}
+
+.food__info--desc{
+  margin-top:1rem;
+  color: var(--clr-grey-5);
+  font-weight: 500;
+}

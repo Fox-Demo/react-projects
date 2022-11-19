@@ -18,6 +18,9 @@ function App() {
         <Link className="homepage__link" to="/accordion">
           Accordion
         </Link>
+        <Link className="homepage__link" to="/menu">
+          Menu
+        </Link>
       </header>
     </main>
   );
