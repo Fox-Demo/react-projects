@@ -1,14 +1,17 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Food from "./Food";
 import "./Menu.css";
 import data from "./Data";
 
 const Menu = () => {
   const [food, setFood] = useState(data);
-  const categoryRef = useRef(null);
 
   const categoryFilter = (category) => {
-    setFood(data.filter((food) => food.category == category));
+    if (category == "all") {
+      setFood(data);
+    } else {
+      setFood(data.filter((food) => food.category == category));
+    }
   };
 
   return (
@@ -17,7 +20,9 @@ const Menu = () => {
         <h1 className="header__title">Our Menu</h1>
         <div className="header__underline"></div>
         <nav className="header__nav">
-          <p className="nav__category">all</p>
+          <p onClick={() => categoryFilter("all")} className="nav__category">
+            all
+          </p>
           <p
             onClick={() => categoryFilter("breakfast")}
             className="nav__category"
