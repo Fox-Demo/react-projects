@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Birthday } from "./component/birthday/Birthday";
 import { Tours } from "./component/tour/Tours";
 import Menu from "./component/menu/Menu";
+import Tabs from "./component/tabs/Tabs";
 import Reviews from "./component/reviews/Reviews";
 import Accordion from "./component/accordion/accordion";
 
@@ -20,6 +21,7 @@ root.render(
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/tabs" element={<Tabs />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

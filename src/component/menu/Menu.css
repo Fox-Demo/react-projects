@@ -10,7 +10,7 @@
   height: auto;
   min-height: 100vh;
   
-  padding: 4rem;
+  padding: 4rem 0;
   background-color: var(--clr-grey-10);
 }
 
@@ -59,13 +59,14 @@
   max-width: var(--max-width);
   display: flex;
   flex-flow: row wrap;
-  gap: 3rem;
+  gap: 3rem 2rem;
   margin: 1rem auto;
 }
 
 .food{
-  width: 35rem;
-  display: flex;
+  max-width: 48%;
+  display: grid;
+  grid-template-columns: 225px 1fr;
   gap: 1rem;
 }
 
@@ -100,3 +101,4 @@
   color: var(--clr-grey-5);
   font-weight: 500;
 }
+

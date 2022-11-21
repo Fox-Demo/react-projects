@@ -21,6 +21,9 @@ function App() {
         <Link className="homepage__link" to="/menu">
           Menu
         </Link>
+        <Link className="homepage__link" to="/tabs">
+          Tabs
+        </Link>
       </header>
     </main>
   );

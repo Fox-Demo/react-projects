@@ -1,0 +1,143 @@
+:root{
+  --primary: #2caeba;
+}
+
+.tabs{
+  padding-top: 4rem;
+
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+
+  background-color: var(--clr-grey-10);
+}
+
+.tabs__header--title{
+  text-align: center;
+  font-size: 2.5rem;
+
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--clr-grey-1);
+}
+
+.tabs__header--underline{
+  background-color: var(--primary);
+  width: 5rem;
+  height: .3rem;
+  margin: 0 auto; 
+}
+
+.tabs__main{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 4rem;
+  max-width: var(--max-width);
+  margin: 4rem auto;
+}
+
+.tabs__aside{
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  padding-top: 1px;
+}
+
+.tabs__aside--list{
+  padding: 4px 0px;
+  text-transform: uppercase;
+
+  border: none;
+  background-color: transparent;
+
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: var(--spacing);
+  font-family: Arial;
+
+  cursor: pointer;
+}
+
+.tabs__aside--list:hover{
+  color: #2caeba;
+  box-shadow: -2px 0 var(--primary);
+  transition: .5s;
+}
+
+.tabs__aside--list:focus{
+  outline: none;
+  color: #2caeba;
+  box-shadow: -2px 0 var(--primary);
+}
+
+.tab__header--title{
+  font-size: 1.75rem;
+  letter-spacing: var(--spacing);
+  margin-bottom: .75rem;
+}
+
+.tab__header--company{
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: var(--spacing);
+  padding: 6px 12px;
+  background-color: var(--clr-grey-9);
+  color: var(--clr-grey-5);
+  border-radius: var(--radius);
+
+  margin-bottom: 1.25rem;
+}
+
+.tab__header--dates{
+  letter-spacing: var(--spacing);
+  color: var(--clr-grey-5);
+
+  margin-bottom: 1.25rem;
+}
+
+.tab__info{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.info__duty{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info__duty--symbol{
+  color: var(--primary);
+}
+
+.info__duty--text {
+  color: var(--clr-grey-3);
+}
+
+.info__button{
+  display: block;
+  margin: 0 auto;
+  padding: 6px 12px;
+
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  background-color: var(--primary);
+
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: .875rem;
+  letter-spacing: var(--spacing);
+  color: #bff8fd;
+  width: 12rem;
+  cursor: pointer;
+}
+
+.info__button:hover{
+  transition: .5s;
+  background-color: #88ebf2;
+  color: black;
+}
+
