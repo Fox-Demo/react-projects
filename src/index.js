@@ -9,6 +9,7 @@ import Menu from "./component/menu/Menu";
 import Tabs from "./component/tabs/Tabs";
 import Reviews from "./component/reviews/Reviews";
 import Accordion from "./component/accordion/accordion";
+import ColorGenerator from "./component/color_generator/ColorGenerator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/tabs" element={<Tabs />} />
+        <Route path="/color_generator" element={<ColorGenerator />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

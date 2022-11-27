@@ -64,7 +64,7 @@
 }
 
 .food{
-  max-width: 48%;
+  width: 48%;
   display: grid;
   grid-template-columns: 225px 1fr;
   gap: 1rem;
@@ -100,5 +100,27 @@
   margin-top:1rem;
   color: var(--clr-grey-5);
   font-weight: 500;
+}
+
+@media screen  and (max-width: 1200px){
+  .food{
+    width: var(--fixed-width);
+  }
+  .menu__main{
+    display: grid;
+    align-self: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .food{
+    width: 25rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .food__img{
+    height: 200px;
+  }
 }
 

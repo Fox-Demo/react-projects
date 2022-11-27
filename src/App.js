@@ -24,6 +24,9 @@ function App() {
         <Link className="homepage__link" to="/tabs">
           Tabs
         </Link>
+        <Link className="homepage__link" to="/color_generator">
+          Color Generator
+        </Link>
       </header>
     </main>
   );

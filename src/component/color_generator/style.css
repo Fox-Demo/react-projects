@@ -1,0 +1,13 @@
+.color{
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: var(--clr-primary-10);
+}
+
+.color__header--title{
+  color: var(--clr-grey-1);
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: var(--spacing);
+}
