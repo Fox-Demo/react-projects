@@ -1,13 +1,57 @@
-.color{
+.colorGenerator{
   width: 100vw;
   min-height: 100vh;
   height: auto;
   background-color: var(--clr-primary-10);
 }
+.colorGenerator__header{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  height: 10vh;
+}
 
-.color__header--title{
+.colorGenerator__header--title{
+  padding-left: 2rem;
   color: var(--clr-grey-1);
   font-weight: 700;
   font-size: 1.75rem;
   letter-spacing: var(--spacing);
+}
+
+.colorGenerator__form--input{
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: var(--radius);
+  border: none;
+}
+
+.colorGenerator__form--submit{
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  background-color: var(--clr-primary-5);
+}
+
+.colorGenerator__main{
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
+
+/* COLOR */
+
+
+.color{
+  background-color: var(--clr-primary-5);
+  padding: 1rem 1.7rem;
+}
+
+.color__hint{
+  font-size: .875rem;
+  color: var(--clr-grey-5);
 }
